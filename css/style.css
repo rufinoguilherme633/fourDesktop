@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #BC2222;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;    
+}
+.home {
+    height:97% ;
+    width: 95%;
+    background-color: #FFFFFF;
+    margin: auto;
+    border-radius: 10px;
+  
+}
+header{
+    height: 20%; background-color: aqua;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+main{height: 80%; background-color: blue;}
+/* footer{height:5% ; background-color: black; border-bottom-right-radius:10px; border-bottom-left-radius: 10px;} */
+
+
+.container_header{
+    display: flex;
+    background-color: azure;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    
+
+}
+
+.Make_an_Impact_Class {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding-left: 3vw;
+}
+
+.red-word {
+    color:#D22020;
+}
+
+.fa-solid {
+    font-size: 3rem;
+    padding-right: 7vw;
+}
+
+
+.container_register_image {
+    background-color: chartreuse;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly; 
+}
+
+.image_register {
+    height: 65vh;
+    width: 35vw;
+}
+.container_image {
+    height: max-content;
+    width: max-content;  
+}
+
+.container_register {
+    background-color: coral;
+    height: max-content;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.inputs_row,.inputsText_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputs_span_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #737373;
+    padding: 0.5rem;
+}
+
+.input::placeholder, .text_register {
+    color: #737373; /* Cor do placeholder */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.file-input {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+
+.button_register {
+    color: #FFFFFF; /* Cor da letra */
+    background-color: #BC2222; /* Cor do fundo */
+    font-weight: 700; /* Valor numérico */
+    height: max-content;
+    width: max-content;
+    padding:11px 30px 11px 30px  ;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.text_user {
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    height: 25vh; /* Usando vh em vez de vh */
+}
+
+.inputsText_row {
+    gap: 1vw;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .inputs_span_column {
+    flex: 1;
+}
+
+.text_user {
+    flex: 1;
+    flex-basis: 0;
+} */
