@@ -3,30 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
+/* body {
     background-color: #BC2222;
     justify-content: center;
     display: flex;
     align-items: center;
     height: 100vh;    
-}
-.home {
+} */
+/* .home {
     height:97% ;
     width: 95%;
     background-color: #FFFFFF;
     margin: auto;
     border-radius: 10px;
   
-}
+} */
 header{
-    height: 20%; background-color: aqua;
-    border-top-left-radius: 10px; 
-    border-top-right-radius: 10px;
+    height: 15vh; background-color: aqua;
+    /* border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; */
     display: flex;
     justify-content: center;
     align-items: center;    
 }
-main{height: 80%; background-color: blue;}
+main{height: 85vh; background-color: blue;}
 /* footer{height:5% ; background-color: black; border-bottom-right-radius:10px; border-bottom-left-radius: 10px;} */
 
 
@@ -43,7 +43,7 @@ main{height: 80%; background-color: blue;}
 
 .Make_an_Impact_Class {
     font-family: 'Roboto', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.5vw;
     font-weight: bolder;
     padding-left: 3vw;
 }
@@ -53,8 +53,8 @@ main{height: 80%; background-color: blue;}
 }
 
 .fa-solid {
-    font-size: 3rem;
-    padding-right: 7vw;
+    font-size: 3vw;
+    padding-right: 5vw;
 }
 
 
@@ -67,11 +67,13 @@ main{height: 80%; background-color: blue;}
     justify-content: center;
     flex-direction: row;
     justify-content: space-evenly; 
+   gap: 3vw;
+   padding: 3vw;
 }
 
 .image_register {
     height: 65vh;
-    width: 35vw;
+    width: 30vw;
 }
 .container_image {
     height: max-content;
@@ -80,18 +82,20 @@ main{height: 80%; background-color: blue;}
 
 .container_register {
     background-color: coral;
-    height: max-content;
-    width: 50vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
 
+
 .inputs_row,.inputsText_row {
     display: flex;
     flex-direction: row;
 }
+
+.inputs_row {background-color: #BC2222; }
 
 .inputs_span_column {
     display: flex;
@@ -104,12 +108,14 @@ main{height: 80%; background-color: blue;}
     border-left: none;
     border-bottom: 1px solid #737373;
     padding: 0.5rem;
+    width: 100%;
 }
+
 
 .input::placeholder, .text_register {
     color: #737373; /* Cor do placeholder */
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 1vw;
 }
 
 .file-input {
@@ -123,15 +129,18 @@ main{height: 80%; background-color: blue;}
     font-weight: 700; /* Valor numérico */
     height: max-content;
     width: max-content;
-    padding:11px 30px 11px 30px  ;
-    border-radius: 10px;
-    font-size: 1rem;
+    padding: 1.8vh 3vw;
+    border-radius: 16px;
+    font-size: 1vw;
+    border: none;
 }
 .text_user {
     border-radius: 10px;
     background-color: #D9D9D9;
-    height: 25vh; /* Usando vh em vez de vh */
+    height: 25vh;
+    width: 20vw;
 }
+
 
 .inputsText_row {
     gap: 1vw;
