@@ -39,11 +39,12 @@ justify-content: center;
 
 .container_header{
     display: flex;
-    /* background-color: azure; */
+    background-color: azure;
     align-items: center;
     justify-content: space-between;
     display: flex;
     width: 100%;
+    
     
 
 }
@@ -60,7 +61,7 @@ justify-content: center;
 }
 
 .fa-solid {
-    font-size: 3vw;
+    font-size: 50px;
     padding-right: 5vw;
 }
 
