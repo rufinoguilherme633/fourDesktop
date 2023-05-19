@@ -23,15 +23,16 @@ header{
     background-color: aqua;
     /* border-top-left-radius: 10px; 
     border-top-right-radius: 10px; */
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;     */
 }
 main{
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+/* background-color: #BC2222; */
 }
 /* footer{height:5% ; background-color: black; border-bottom-right-radius:10px; border-bottom-left-radius: 10px;} */
 
@@ -185,32 +186,3 @@ gap: 3vw;
 } */
 
 
-/* ------------------------ sobrenos--------------------------------------------- */
-
-.about_Us {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5vw;
-    font-weight: bolder;
-    padding-left: 6vw;
-}
-
-
-.title_about_us, .paragraph_about_us{
-    font-family: 'Roboto', sans-serif;
-    font-size: 2vw;
-  
-}
-
-
-
-.container_about_us{ 
-background-color: #BC2222;
-padding-left: 4vw;
-padding-right: 4vw;
-}
-
-
-.title_about_us {background-color: aqua;}
-.paragraph_about_us {background-color: bisque;}
-
-.s{}

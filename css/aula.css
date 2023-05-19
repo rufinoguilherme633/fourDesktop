@@ -1,0 +1,63 @@
+header {
+    display: flex;
+align-items: flex-end;
+}
+.container_header_aula {
+    display: flex;
+    background-color: springgreen;
+    width: 100%;
+    height: max-content;
+    display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.container_aula{
+    width: max-content;
+    height: max-content;
+    gap: 400px;
+    padding: 10px;
+    background-color: tan;
+    display: flex;
+    flex-direction: column;
+   gap: 5vh;
+}
+.container_day_name_numer {
+    background-color: springgreen;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_text_aula {
+    width:40vw;
+    height: 50vh;
+    background-color: #D9D9D9;
+    border-radius: 40px;
+}
+
+main {
+    height: 85vh;
+    background-color: steelblue;
+}
+
+.container_class_and_schedule {
+    width: 100%;
+    background-color: teal;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 7vw;
+}
+
+.text_class{
+    font-size: 3rem;
+}
+
+.text_sclass_schedule{
+    font-size: 3rem;
+
+}
