@@ -44,6 +44,7 @@ function login() {
   } else {
       // Credenciais incorretas, exibir mensagem de erro
       var errorMessage = document.getElementById('error_message');
+      
       errorMessage.textContent = 'Usuário ou senha incorretos.';
   }
 }
