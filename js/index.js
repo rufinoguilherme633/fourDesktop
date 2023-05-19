@@ -30,3 +30,22 @@ for (var i = 0; i < elements.length; i++) {
   element.innerHTML = words.join(' ');
 }
 
+
+// ------------------------------------------------------------
+
+function login() {
+  var username = document.querySelector('.user input').value;
+  var password = document.querySelector('.password input').value;
+
+  // Verificar as credenciais de login
+  if (username === 'admin' && password === 'senha') {
+      // Credenciais corretas, redirecionar para a página de sucesso
+      window.location.href = 'pagina_sucesso.html';
+  } else {
+      // Credenciais incorretas, exibir mensagem de erro
+      var errorMessage = document.getElementById('error_message');
+      errorMessage.textContent = 'Usuário ou senha incorretos.';
+  }
+}
+
+

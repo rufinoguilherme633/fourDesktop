@@ -1,17 +1,33 @@
 /* ------------------------ sobrenos--------------------------------------------- */
+header{
+    display: flex;
+    flex-direction: column;
+ height: max-content;
+    justify-content: flex-start;
+    /* padding-top:3vh ; */
+    padding: 25px;
+    /* background-color: aquamarine; */
+}
 .container_image{
     /* background-color:seagreen; */
     width: 100%;
     height: max-content;
-    padding: 10px;
+    /* padding: 10px; */
     display: flex;
     justify-content:center ;
     align-items: center;
+    /* background-color: aqua; */
 
+}
+
+.container_header_about {
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: flex-start;
 }
 .image_about_us{
     width: 65vw;
-    height: 25vh;
+    height: 35vh;
     /* background-color: seashell; */
 }
 
@@ -28,11 +44,11 @@
     height: max-content; /* 100vh representa 100% da altura da tela */
     /* background-color: #BC2222; */
     overflow: auto; /* Adiciona uma barra de rolagem quando necessário */
-    gap: 5vh;
+    gap: 2vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
+    padding: 25px;
  
 }
 
@@ -46,7 +62,7 @@
     display: flex;
     justify-content: center;
     /* align-items: center; */
-padding:10px ;
+/* padding:10px ; */
 gap: 30px;
 /* width:90vw ; */
 }
@@ -66,7 +82,7 @@ gap: 30px;
     font-family: 'Roboto', sans-serif;
     /* font-weight: bolder; */
     font-size: 1.4rem;
-    width: 70vw;
+    width: 60vw;
  
 }
 

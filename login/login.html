@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <div class="container_login">
+        <div class="image_header">
+            <img src="../img/logo.png" alt="" class="image_logo">
+        </div>
+
+        <div class="container_register">
+            <span class="text_login">Login</span>
+
+            <form class="form">
+                <div class="user">
+                    <span class="text_user">Usuário:</span>
+                    <input type="text" required class="input">
+                </div>
+            
+                <div class="password">
+                    <span class="text_password">Senha:</span>
+                    <input type="password" required class="input">
+                </div>
+            
+                <button class="button_login" onclick="login()">Log in</button>
+            
+                <span id="error_message" class="error_message"></span>
+            </form>
+            
+        </div>
+
+    </div>
+    
+</body>
+</html>

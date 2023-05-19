@@ -26,6 +26,10 @@ header{
     /* display: flex;
     justify-content: center;
     align-items: center;     */
+    display: flex;
+    flex-direction: column;
+ 
+    justify-content: flex-end;
 }
 main{
 display: flex;
@@ -39,7 +43,7 @@ justify-content: center;
 
 .container_header{
     display: flex;
-    background-color: azure;
+    /* background-color: azure; */
     align-items: center;
     justify-content: space-between;
     display: flex;
