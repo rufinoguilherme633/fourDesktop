@@ -165,6 +165,9 @@ padding: 20px;
     .custom-file-input label .custom-file-label {
       font-size: 2vw;
     }
+    .images-container_header {
+        flex-direction: row;
+    }
   }
   
   
