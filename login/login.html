@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/index.js" defer type="module"></script>
     <title>Document</title>
 
 </head>
@@ -16,6 +17,7 @@
 
         <div class="container_register">
             <span class="text_login">Login</span>
+           
 
             <form class="form">
                 <div class="user">
@@ -28,9 +30,9 @@
                     <input type="password" required class="input">
                 </div>
             
+                <span id="error_message" class="error_message">Senha ou Usuário Incorreto</span>
                 <button class="button_login" onclick="login()">Log in</button>
-            
-                <span id="error_message" class="error_message"></span>
+               
             </form>
             
         </div>

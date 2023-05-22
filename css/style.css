@@ -128,6 +128,7 @@ justify-content: center;
     border-bottom: 2.5px solid #737373;
     padding: 0.5rem;
     width: 100%;
+    
 }
 
 
@@ -140,6 +141,7 @@ justify-content: center;
 .file-input {
     color: transparent;
     text-shadow: 0 0 0 #000;
+    
 }
 
 .button_register {
