@@ -1,20 +1,21 @@
 /* ------------------------ sobrenos--------------------------------------------- */
-header{
+header {
     display: flex;
     flex-direction: column;
- height: max-content;
+    height: max-content;
     justify-content: flex-start;
     /* padding-top:3vh ; */
     padding: 25px;
     /* background-color: aquamarine; */
 }
-.container_image{
+
+.container_image {
     /* background-color:seagreen; */
     width: 100%;
     height: max-content;
     /* padding: 10px; */
     display: flex;
-    justify-content:center ;
+    justify-content: center;
     align-items: center;
     /* background-color: aqua; */
 
@@ -25,7 +26,8 @@ header{
     display: flex;
     align-items: flex-start;
 }
-.image_about_us{
+
+.image_about_us {
     width: 65vw;
     height: 35vh;
     /* background-color: seashell; */
@@ -36,20 +38,22 @@ header{
     font-size: 1.5vw;
     font-weight: bolder;
     padding-left: 6vw;
- 
+
 }
 
 .container_about_us {
     width: 100%;
-    height: max-content; /* 100vh representa 100% da altura da tela */
+    height: max-content;
+    /* 100vh representa 100% da altura da tela */
     /* background-color: #BC2222; */
-    overflow: auto; /* Adiciona uma barra de rolagem quando necessário */
+    overflow: auto;
+    /* Adiciona uma barra de rolagem quando necessário */
     gap: 2vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 25px;
- 
+
 }
 
 .text_about_us {
@@ -62,9 +66,9 @@ header{
     display: flex;
     justify-content: center;
     /* align-items: center; */
-/* padding:10px ; */
-gap: 30px;
-/* width:90vw ; */
+    /* padding:10px ; */
+    gap: 30px;
+    /* width:90vw ; */
 }
 
 .title_about_us {
@@ -74,16 +78,16 @@ gap: 30px;
     /* background-color: powderblue; */
     width: max-content;
     display: flex;
-  
+
 }
 
-.paragraph_about_us{
+.paragraph_about_us {
     /* background-color: red; */
     font-family: 'Roboto', sans-serif;
     /* font-weight: bolder; */
     font-size: 1.4rem;
     width: 60vw;
- 
+
 }
 
 .container_text_about_us {
