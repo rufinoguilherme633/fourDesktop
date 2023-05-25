@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/register.css">
     <script src="./js/index.js" defer type="module"></script>
     <title>EducFour</title>
 </head>
@@ -36,6 +37,27 @@
 
 
         <span class="title">Cadastrar ADM</span>
+
+        <form class="form">
+            <div class="user">
+                <span class="text_user">Usuário:</span>
+                <input type="text" required class="input">
+            </div>
+
+            <div class="email">
+                <span class="text_user">E-mail:</span>
+                <input type="e-mail" required class="input">
+            </div>
+        
+            <div class="password">
+                <span class="text_password">Senha:</span>
+                <input type="password" required class="input">
+            </div>
+        
+            <span id="error_message" class="error_message">Mensagem de erro</span>
+            <button class="button_login" onclick="save()">Salvar</button>
+           
+        </form>
     </main>
 </body>
 
