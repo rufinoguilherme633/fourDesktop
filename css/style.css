@@ -30,7 +30,6 @@ header {
 }
 
 .images-container_header {
-    /* background-color: cornsilk; */
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -100,7 +99,7 @@ main {
 .title {
     color: #D22020;
     font-size: 50px;
-    font-weight: bolder;
+    font-weight: 600;
 }
 
 .custom-file-input {
@@ -120,7 +119,6 @@ main {
 
 .custom-file-input label {
     display: block;
-    /* padding: 80px 12px; */
     height: 45vh;
     width: 30vw;
     border-radius: 10px;
