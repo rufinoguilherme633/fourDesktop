@@ -33,10 +33,6 @@ body {
     padding: 20px 0 20px 0;
 }
 
-.image_logo{
-
-}
-
 .text_login{
     font-family: 'Roboto', sans-serif;
     font-size: 3.5rem;
@@ -63,11 +59,9 @@ body {
     display: flex;
     flex-direction: column;
    gap: 7vh;
-    /* background-color:teal; */
     display: flex;
     height: max-content;
     align-items: center;
-    /* justify-content: center; */
     padding-top: 9vh;
 }
 
@@ -91,7 +85,7 @@ body {
     border: none;
 }
 
-.password, .user{
+.password .user .email{
     display: flex;
     flex-direction: column;
 }
