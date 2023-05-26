@@ -1,32 +1,26 @@
 .text_login{
     font-size: 3.5rem;
     color:#D22020;
-    font-weight: bolder;
-    /* background-color: tomato; */
-    
+    font-weight: 600;
 }
 
 .container_register{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 }
 
 .text_user,.text_password {
     color:#D22020;
-    font-weight: bolder;
+    font-weight: 600;
     font-size: 1.5rem;
 }
 .form {
-    
     display: flex;
     flex-direction: column;
-   gap: 7vh;
-    /* background-color:teal; */
+    gap: 7vh;
     display: flex;
     height: max-content;
     align-items: center;
-    /* justify-content: center; */
     padding-top: 9vh;
 }
 
