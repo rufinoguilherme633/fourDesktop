@@ -5,6 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .image_logo{
@@ -12,7 +13,6 @@ body {
     height: 15vh;
 }
 .container_login{
-    
     width: 33vw;
     height: 90%;
     background-color: white;
@@ -23,10 +23,8 @@ body {
 }
 
 .image_header{
-    /* background-color: violet; */
     width: 100%;
     height: max-content;
-    /* background-color: teal; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,24 +32,19 @@ body {
 }
 
 .text_login{
-    font-family: 'Roboto', sans-serif;
     font-size: 3.5rem;
     color:#D22020;
-    font-weight: bolder;
-    /* background-color: tomato; */
-    
+    font-weight: 600;
 }
 
 .container_register{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 }
 
 .text_user,.text_password {
     color:#D22020;
-    font-weight: bolder;
-    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     font-size: 1.5rem;
 }
 .form {
@@ -76,8 +69,7 @@ body {
 .button_login{
     background-color:#D22020 ;
     color: white;
-    font-weight: bolder;
-    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     font-size: 1.3rem;
     height: 5vh;
     width: 8vw;

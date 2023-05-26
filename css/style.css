@@ -6,7 +6,6 @@ body {
     /* opcional para remover margens padrão do body */
     padding: 0;
     box-sizing: border-box;
-    background-color: chartreuse;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -17,9 +16,8 @@ header {
 }
 
 .container_logo {
-    background-color: crimson;
     /* width: max-content;
-height: max-content; */
+    height: max-content; */
     padding: 10px;
     display: flex;
     justify-content: end;
@@ -38,7 +36,6 @@ height: max-content; */
     height: 100%;
     justify-content: space-evenly;
     align-items: center;
-    background-color: blue;
 
 }
 
@@ -56,9 +53,7 @@ main {
 .newspaper {
     display: flex;
     flex-direction: row;
-    background-color: cornflowerblue;
     /* height: 100%; */
-
 }
 
 .form_newspapper {
@@ -66,7 +61,6 @@ main {
     flex-direction: row;
     justify-content: space-evenly;
     padding: 20px;
-    background-color: cyan;
     width: 100%;
     gap: 30px;
 }
@@ -75,7 +69,6 @@ main {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    background-color: blueviolet;
     align-items: center;
     justify-content: space-between;
     width: 90%;
@@ -108,7 +101,6 @@ main {
     color: #D22020;
     font-size: 50px;
     font-weight: bolder;
-    background-color: cyan;
 }
 
 .custom-file-input {
