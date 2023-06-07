@@ -32,6 +32,10 @@ function handleLogin() {
 
     if (match) {
       console.log("Credenciais corretas. Acesso permitido.");
+
+      // Redirecione para a página desejada
+      window.location.href = "./login/publish_new.html";
+
     } else {
       console.log("Credenciais incorretas. Acesso negado.");
     }
