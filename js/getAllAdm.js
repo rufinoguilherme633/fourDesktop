@@ -1,7 +1,7 @@
 "use strict";
 
 async function getadm() {
-  const urlnewspaper = "http://localhost:8080/v1/educ_four/getadm";
+  const urlnewspaper = "http://localhost:8080/v1/educ_four/adm/get";
   const response = await fetch(urlnewspaper);
   const data = await response.json();
   console.log(data);
@@ -34,6 +34,7 @@ const criarCards = (adm) => {
     containerEmail.appendChild(emailAdm);
     card.appendChild(containerEmail);
   
+  
     return card;
   };
   
@@ -43,9 +44,12 @@ const load_all_adm = async () => {
   const container = document.getElementById("container_adms");
   const cards = await getadm();
   
-  const news = cards.news.map(criarCards);
+  const adm = cards.adms.map(criarCards);
+
+
+
   
-  container.append(...news);
+  container.append(...adm);
 };
 
 
