@@ -6,8 +6,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/adm.css">
-    <script src="../js/index.js" defer type="module"></script>
+    <link rel="stylesheet" href="css/adm.css">
+    <link rel="stylesheet" href="css/login.css">
+    <!-- <script src="../js/index.js" defer type="module"></script> -->
+    <script src="./js/login.js" defer type="module"></script>
     <title>Document</title>
 
 </head>
@@ -25,17 +27,16 @@
             <form class="form">
                 <div class="user">
                     <span class="text_user">Usuário:</span>
-                    <input type="text" required class="input">
+                    <input id="username_input" type="text" required class="input">
                 </div>
-            
+                        
                 <div class="password">
                     <span class="text_password">Senha:</span>
-                    <input type="password" required class="input">
+                    <input id="password_input" type="password" required class="input">
                 </div>
-            
+                        
                 <span id="error_message" class="error_message">Senha ou Usuário Incorreto</span>
-                <button class="button_login" onclick="login()">Log in</button>
-               
+                <button class="button_login" id="test" type="button">Log in</button>
             </form>
             
         </div>
